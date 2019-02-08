@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2763B45C220C9D3400CF6312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763B45B220C9D3400CF6312 /* AppDelegate.swift */; };
-		2763B45E220C9D3400CF6312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763B45D220C9D3400CF6312 /* ViewController.swift */; };
 		2763B461220C9D3400CF6312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2763B45F220C9D3400CF6312 /* Main.storyboard */; };
 		2763B463220C9D3600CF6312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2763B462220C9D3600CF6312 /* Assets.xcassets */; };
 		2763B466220C9D3600CF6312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2763B464220C9D3600CF6312 /* LaunchScreen.storyboard */; };
 		2763B471220C9D3600CF6312 /* flixappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763B470220C9D3600CF6312 /* flixappTests.swift */; };
 		2763B47C220C9D3600CF6312 /* flixappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2763B47B220C9D3600CF6312 /* flixappUITests.swift */; };
+		502CD3C0220D28C6002C0485 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502CD3BF220D28C6002C0485 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2763B458220C9D3400CF6312 /* flixapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2763B45B220C9D3400CF6312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2763B45D220C9D3400CF6312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2763B460220C9D3400CF6312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2763B462220C9D3600CF6312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2763B465220C9D3600CF6312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2763B477220C9D3600CF6312 /* flixappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2763B47B220C9D3600CF6312 /* flixappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixappUITests.swift; sourceTree = "<group>"; };
 		2763B47D220C9D3600CF6312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502CD3BF220D28C6002C0485 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				2763B45B220C9D3400CF6312 /* AppDelegate.swift */,
-				2763B45D220C9D3400CF6312 /* ViewController.swift */,
 				2763B45F220C9D3400CF6312 /* Main.storyboard */,
+				502CD3BF220D28C6002C0485 /* MovieViewController.swift */,
 				2763B462220C9D3600CF6312 /* Assets.xcassets */,
 				2763B464220C9D3600CF6312 /* LaunchScreen.storyboard */,
 				2763B467220C9D3600CF6312 /* Info.plist */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2763B45E220C9D3400CF6312 /* ViewController.swift in Sources */,
 				2763B45C220C9D3400CF6312 /* AppDelegate.swift in Sources */,
+				502CD3C0220D28C6002C0485 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
