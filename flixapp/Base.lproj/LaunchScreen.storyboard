@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="KWx-g4-eN4">
-                                <rect key="frame" x="118" y="230" width="138" height="139"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="Bf0-Ci-IZx">
+                                <rect key="frame" x="118" y="225" width="138" height="139"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
