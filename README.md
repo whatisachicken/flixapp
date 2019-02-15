@@ -36,7 +36,7 @@ Difficulties with xcode and github. always pull before committing
 
 ### App Walkthough GIF
 
-<img src="https://imgur.com/a/9zIRfQw" width=250><br>
+<img src="https://imgur.com/a/9zIRfQw.gif" width=250><br>
 
 ### Notes
  Requires the use of external libraries to download and display images
